@@ -22,6 +22,15 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
+		},
+		{
+			"id" : "BinomialQueues::@86270732a5d6a63edb4b"
+		},
+		{
+			"id" : "top_level_main::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -29,15 +38,6 @@
 		},
 		{
 			"id" : "huffman_trace::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "top_level_main::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
-		},
-		{
-			"id" : "BinomialQueues::@86270732a5d6a63edb4b"
 		}
 	],
 	"folder" : 
@@ -50,19 +50,19 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "harness::@6890427a1f51a3e7e1df"
+			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
 		},
 		{
-			"id" : "huffman_trace::@6890427a1f51a3e7e1df"
+			"id" : "BinomialQueues::@86270732a5d6a63edb4b"
 		},
 		{
 			"id" : "top_level_main::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
+			"id" : "harness::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "BinomialQueues::@86270732a5d6a63edb4b"
+			"id" : "huffman_trace::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 

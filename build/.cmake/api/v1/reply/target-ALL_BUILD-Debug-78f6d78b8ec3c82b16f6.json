@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"src/implementations/BinomialQueues/CMakeLists.txt"
+			"src/implementations/BinaryHeapInVector/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -22,29 +22,29 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
 		},
 		{
-			"id" : "BinomialQueues::@86270732a5d6a63edb4b"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "CMakePredefinedTargets"
 	},
-	"id" : "ALL_BUILD::@86270732a5d6a63edb4b",
+	"id" : "ALL_BUILD::@dc84c99316c65ee76636",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"orderDependencies" : 
 	[
 		{
-			"id" : "BinomialQueues::@86270732a5d6a63edb4b"
+			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "utils/comparator.cpp",
-		"source" : "src/implementations/BinomialQueues"
+		"build" : "src/implementations/BinaryHeapInVector",
+		"source" : "src/implementations/BinaryHeapInVector"
 	},
 	"sources" : [],
 	"type" : "UTILITY"
