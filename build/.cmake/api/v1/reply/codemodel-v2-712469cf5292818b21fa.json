@@ -1,0 +1,724 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/implementations/BinaryHeapInVector",
+					"jsonFile" : "directory-src.implementations.BinaryHeapInVector-Debug-7a4c763d5eb89a8b9030.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/implementations/BinaryHeapInVector",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "utils/comparator.cpp",
+					"jsonFile" : "directory-utils.comparator.cpp-Debug-ba78cfd2bad8198e2d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/implementations/BinomialQueues",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "priority-queue-study",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BinaryHeapInVector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "BinomialQueues",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-cb2ce266651a142d7cd7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dc84c99316c65ee76636",
+					"jsonFile" : "target-ALL_BUILD-Debug-46d6b76f8aa659aba857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-ALL_BUILD-Debug-a2200c29514d7365e2c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BinaryHeapInVector::@dc84c99316c65ee76636",
+					"jsonFile" : "target-BinaryHeapInVector-Debug-dc97b7e76820e5be7e8b.json",
+					"name" : "BinaryHeapInVector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "BinomialQueues::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-BinomialQueues-Debug-2ca6fdbfe51176c3974b.json",
+					"name" : "BinomialQueues",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-ed9d765bab534704d10c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "harness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-harness-Debug-dbb70bca8b5beb2b5cea.json",
+					"name" : "harness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huffman_trace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huffman_trace-Debug-9647f7c589e7b3f5edf3.json",
+					"name" : "huffman_trace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "top_level_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-top_level_main-Debug-fe1eb3cc61d9c49fedbc.json",
+					"name" : "top_level_main",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/implementations/BinaryHeapInVector",
+					"jsonFile" : "directory-src.implementations.BinaryHeapInVector-Release-7a4c763d5eb89a8b9030.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/implementations/BinaryHeapInVector",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "utils/comparator.cpp",
+					"jsonFile" : "directory-utils.comparator.cpp-Release-ba78cfd2bad8198e2d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/implementations/BinomialQueues",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "priority-queue-study",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BinaryHeapInVector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "BinomialQueues",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-cb2ce266651a142d7cd7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dc84c99316c65ee76636",
+					"jsonFile" : "target-ALL_BUILD-Release-46d6b76f8aa659aba857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-ALL_BUILD-Release-a2200c29514d7365e2c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BinaryHeapInVector::@dc84c99316c65ee76636",
+					"jsonFile" : "target-BinaryHeapInVector-Release-c9be9e617ebbcca520e7.json",
+					"name" : "BinaryHeapInVector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "BinomialQueues::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-BinomialQueues-Release-dc336fb2e664a607c6ba.json",
+					"name" : "BinomialQueues",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-ed9d765bab534704d10c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "harness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-harness-Release-b01327b0688d15bd87eb.json",
+					"name" : "harness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huffman_trace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huffman_trace-Release-a12a99f344f1e956ea66.json",
+					"name" : "huffman_trace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "top_level_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-top_level_main-Release-2f91db747a12f5990cfa.json",
+					"name" : "top_level_main",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-MinSizeRel-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/implementations/BinaryHeapInVector",
+					"jsonFile" : "directory-src.implementations.BinaryHeapInVector-MinSizeRel-7a4c763d5eb89a8b9030.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/implementations/BinaryHeapInVector",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "utils/comparator.cpp",
+					"jsonFile" : "directory-utils.comparator.cpp-MinSizeRel-ba78cfd2bad8198e2d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/implementations/BinomialQueues",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "priority-queue-study",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BinaryHeapInVector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "BinomialQueues",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-cb2ce266651a142d7cd7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dc84c99316c65ee76636",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-46d6b76f8aa659aba857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a2200c29514d7365e2c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BinaryHeapInVector::@dc84c99316c65ee76636",
+					"jsonFile" : "target-BinaryHeapInVector-MinSizeRel-9d6ecdc8928222dcfa7d.json",
+					"name" : "BinaryHeapInVector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "BinomialQueues::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-BinomialQueues-MinSizeRel-8b087d0b0a4b159f0aca.json",
+					"name" : "BinomialQueues",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-ed9d765bab534704d10c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "harness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-harness-MinSizeRel-9ee98ec0f86eeb8b0aca.json",
+					"name" : "harness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huffman_trace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huffman_trace-MinSizeRel-5b341a3060c3359c50d9.json",
+					"name" : "huffman_trace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "top_level_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-top_level_main-MinSizeRel-cf870bbd271b1a2de460.json",
+					"name" : "top_level_main",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/implementations/BinaryHeapInVector",
+					"jsonFile" : "directory-src.implementations.BinaryHeapInVector-RelWithDebInfo-7a4c763d5eb89a8b9030.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/implementations/BinaryHeapInVector",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "utils/comparator.cpp",
+					"jsonFile" : "directory-utils.comparator.cpp-RelWithDebInfo-ba78cfd2bad8198e2d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/implementations/BinomialQueues",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "priority-queue-study",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BinaryHeapInVector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "BinomialQueues",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-cb2ce266651a142d7cd7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dc84c99316c65ee76636",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-46d6b76f8aa659aba857.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a2200c29514d7365e2c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BinaryHeapInVector::@dc84c99316c65ee76636",
+					"jsonFile" : "target-BinaryHeapInVector-RelWithDebInfo-f42f835281bf374a9583.json",
+					"name" : "BinaryHeapInVector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "BinomialQueues::@86270732a5d6a63edb4b",
+					"jsonFile" : "target-BinomialQueues-RelWithDebInfo-01c917728efb990a62e6.json",
+					"name" : "BinomialQueues",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-ed9d765bab534704d10c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "harness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-harness-RelWithDebInfo-d9109efb4a7f5362f292.json",
+					"name" : "harness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huffman_trace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huffman_trace-RelWithDebInfo-0d7bfb96ceb2c750f510.json",
+					"name" : "huffman_trace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "top_level_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-top_level_main-RelWithDebInfo-338d2522d3bc66bfe853.json",
+					"name" : "top_level_main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Memo/source/repos/priority-queue-study/build",
+		"source" : "C:/Users/Memo/source/repos/priority-queue-study"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/implementations/BinaryHeapInVector/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@dc84c99316c65ee76636",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "BinaryHeapInVector::@dc84c99316c65ee76636"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/implementations/BinaryHeapInVector",
+		"source" : "src/implementations/BinaryHeapInVector"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
